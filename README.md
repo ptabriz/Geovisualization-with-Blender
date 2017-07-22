@@ -7,9 +7,6 @@
 # 3D Visualization of Geospatial Data With Blender and Sketchfab
 In this learning modules introduce Blender and Sketchfab software, explain the process of transforming common geospatial data formats into 3D objects. They also explain how to visualize geospatial terrain analyses, hydrology and viewshed, and how to annotate and share geospatial analysis in form of an online interactive 3D model.
 
-This tutorial provides basic tips for importing, processing and visualizing Geospatial data in [Blender](https://www.blender.org/).<br>
-- Find the GRASS GIS material [here](https://grasswiki.osgeo.org/wiki/Analytical_data_visualizations_at_ICC_2017)
-
 This tutorial is Prepared by : [Payam Tabrizian](https://github.com/ptabriz)<br>
 Delivered in Geospatial Visualization course at NC State instructed by Dr. Laura Tateosian <br>
 Tested and reviewed by: [Garrett Millar](https://github.com/gcmillar)
