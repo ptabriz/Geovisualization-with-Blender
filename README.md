@@ -1,5 +1,6 @@
 
 <img src="img/Blender_logo.png" height="60">
+<img src="img/sketch_fab_logo.png" height="60">
 
 
 
