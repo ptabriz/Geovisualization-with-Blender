@@ -29,23 +29,40 @@ Tested and reviewed by: [Garrett Millar](https://github.com/gcmillar)
 
 ___________________
 ## What is Blender and why use Blender?
-Blender is an open-source 3D modelling, rendering and game engine software. You can create photorealistic scenes and life-like animations with it. The feature that makes Blender highly suitable for geospatial visualization is its capability to import various georeferenced data thanks to [BlenderGIS addon](https://github.com/domlysz/BlenderGIS). Almost every operation done in the blender interface, can be scripted in the Python scripting environment, allowing you to automate or batch process your 3D modelling workflow. Moreover, powered by the [sketchfab addon](https://sketchfab.com/exporters/blender), you can easily export and publish your online geospatial models inside blender, so that everyone can interactively explore or download your work. <br>
+Blender is an open-source 3D modelling, rendering and game engine software. You can create photorealistic scenes and life-like animations with it. Blender is a good choice for geospatial visualization due to its capability to import various georeferenced data thanks to the [BlenderGIS addon](https://github.com/domlysz/BlenderGIS). Furthermore, most operations possible with the Blender graphical interface, can also be scripted in the Python scripting environment, allowing for automatation and batch processing of 3D modelling workflows. Moreover, using [Blend4Web](https://www.blend4web.com/en/) or [sketchfab addons](https://sketchfab.com/exporters/blender), the geospatial models created in Blender can be published online, so that others can interactively explore or download the models. <br>
+
+* [Download](https://www.blender.org/download/) and install Blender, if you haven't already done so.
+
 [Learn more about Sketchfab]()<br>
 [A sample geospatial model in Sketchfab](https://sketchfab.com/models/298dfaf54e4447459275493e7b2adf96)<br>
 
+## Basics components of the Blender interface
 
-## Basics of the Blender interface
+Blender has numerous components and features that continue to grow with open-source contributions. Covering all aspects of this software is beyond the scope of this lesson. Instead, this section provides an introduction to Blender's graphical user interface and features that are essential for working with geospatial data.
 
-Blender has numerous components and features that, thanks to it open-source capabilities, are growing every day. Covering all aspects of the software itself require several lessons. The purpose of this section is to provide a brief introduction to Blender's graphical user interface and some of its features that are essential for working with geospatial data, and will be used throughout this tutorial.
+* Browse the to the workshop data folder, locate, and open *interface_introduction.blend*  This is a Blender file which should launch the Blender software with the editor windows arranged as you see them in the figure below.
 
 |![Blender Viewport](img/Blender_interface.JPG)Blender interface|
 |:---:|
 
+Blender's application window can be re-arranged and divided into __Areas__. An __Area__ contains the workspace for a particular type of editor, such as a 3D View Editor, or an Outliner. In the figure above the application window is divided into five areas, each assigned to an editor.
+
+__Editors__ are responsible for displaying and modifying different aspects of the data. Think of an editor as a full-fledged software.  Each one is specialized for a specific task, like changing data properties, image editing, video editing, animation design, or game design. You can assign an area to a specific editor using the __Editor Type selector__, the first button on the left side of a header (figure below, left). Every area in Blender may contain any type of editor and it is also possible to open the same type multiple times.
+
+__Tabs__ are overlapping sections in the user-interface. Tabs can be vertical (Tool Shelf) or horizontal (Properties Editor, User Preferences).
+
+Another common feature is the __Header__, that contain menus and commonly used tools specific to each editor. It has a small horizontal strip shape with a lighter gray background, which sits either at the top or bottom of the area.
+
+Finally, the smallest organizational unit in the user interface is a __Panel__. You can usually collapse panels to hide their contents. They are used in the Properties Editor, but also for example in the Tool Shelf and the Properties region. In the image below on the right you can see three panels one of them is expanded and the rest are collapsed.
+
+![Blender Viewport](img/interface_parts.JPG) <p> __Above:__ Editor type selector (left), A Toolbar with tabs (middle), Toolbar Panels (right)
+__Below:__ A Header with tabs
+
+
 ### Editors
 
-* Browse the workshop data folder, locate and open *interface_introduction.blend*
+As discussed above, Blender has a number of editors to view and modify various aspects of data.  Now that you have some general ideas about the interface, we will review some of the commonly used editors.
 
-Blender has a number of editors to view and modify various aspect of data. You can set each of the viewports to a specific editor and you can do that by clicking on the *editor type* selector (box icon next to *View*, see image below). This allows you to reorganize and customize the interface based on your project needs and preferences. Also, you can add editors by dragging the triangular shaped stripes at corners of each viewport. Below we will review some of them that are most relevant to handling geospatial data.
 [learn more about editors](https://docs.blender.org/manual/en/dev/editors/)
 ### 3D view
 The __3D View__ is the visual interface with the 3D data and scene with numerous functionalities for modeling, animation, texture painting, etc. Unlike the 2D environment of GIS software, where you can only navigate in x and y directions, 3D viewport allows full control over our viewing angle, depth, size, etc. You can press and hold down mouse scroll (or middle click) button to change the viewing angle (or orbiting around), shift and drag to pan, and roll to zoom back and forth.
