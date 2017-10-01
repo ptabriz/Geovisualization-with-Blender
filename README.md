@@ -17,7 +17,6 @@ Tested and reviewed by: [Garrett Millar](https://github.com/gcmillar)
 [III. Assignment 1b: Upload and publish a simple 3D model to Sketchfab](#upload-and-publish-a-simple-3D-model-to-Sketchfab)<br>
 
 ### Session 2.
-[Video](https://youtu.be/UA7AyJuaC68)<br>
 [II. Georeferencing the Blender Scene](#georeferencing-the-blender-scene)<br>
 [III. Importing Geospatial data](#importing-geospatial-data)<br>
 [IV. Materials and Texture](#materials-and-texture)<br>
